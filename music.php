@@ -16,7 +16,7 @@
               <input type="text" name="artist" placeholder="Artiest">
               <input type="text" name="link" placeholder="Youtube-link">
               <p>#2 liedje</p>
-              <input type="text" name="naam" placeholder="Titel">
+              <input type="text" name="naam" placeholder="Titel2">
               <input type="text" name="artist" placeholder="Artiest">
               <input type="text" name="link" placeholder="Youtube-link">
       </div>
@@ -29,8 +29,9 @@
           <input type="text" name="naam" placeholder="Titel">
           <input type="text" name="artist" placeholder="Artiest">
           <input type="text" name="link" placeholder="Youtube-link">
-					
-          <input type="submit" name="btn" value="Opslaan">
+          
+          <input type="submit" name="btn" value="Aanpassen" id="change">
+          <input type="submit" name="btn" value="Opslaan" id="save">
 					<a href="#">Hulp nodig?</a>
 				</form>
 			</div>

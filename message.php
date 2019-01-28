@@ -16,7 +16,7 @@
 					<p>Bericht voor de jarige:</p>
 					<input type="text" id="bericht" name="message" placeholder="typ uw bericht hier...">
 					<input type="submit" name="btn" value="Bevestigen">
-					<a href="#">Hulp nodig?</a>
+					
 				</form>
 			</div>
 		</div>

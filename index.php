@@ -14,11 +14,11 @@
 			<div class="formbox">
 				<form>
 					<p>Naam</p>
-					<input type="text" name="naam" placeholder="Voornaam">
+					<input type="text" name="naam" placeholder="Voornaam" required>
 					<p>E-mail</p>
-					<input type="text" name="mail" placeholder="E-mail adres">
+					<input type="text" name="mail" placeholder="E-mail adres" required>
 					<input type="submit" name="btn" value="Bevestigen">
-					<a href="#">Hulp nodig?</a>
+					
 				</form>
 			</div>
 		</div>

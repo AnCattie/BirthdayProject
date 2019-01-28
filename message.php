@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>login</title>
+	<title>bericht</title>
 	<link rel="stylesheet" type="text/css" href="message.css">
 </head>
 <body>

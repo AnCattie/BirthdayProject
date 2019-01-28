@@ -10,7 +10,7 @@
 ?>
 	<div class="container">
 		<div class="left">
-      <div class="formbox">
+      <div class="formboxl">
         <p>#1 liedje</p>
               <input type="text" name="naam" placeholder="Titel">
               <input type="text" name="artist" placeholder="Artiest">
@@ -22,7 +22,7 @@
       </div>
     </div>
 		<div class="right">
-			<div class="formbox">
+			<div class="formboxr">
 				<form>
 				
           <p>#3 liedje</p>

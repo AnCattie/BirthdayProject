@@ -93,7 +93,8 @@ body{
 	background:#e6b820;
 }
 .formbox a{
-	color: #262626;
+	color: #0019f7;
 	font-size: 12px;
 	font-weight: bold;
+	text-decoration: none;
 }

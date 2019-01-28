@@ -57,35 +57,42 @@ body{
 	height: 50px;
 	box-sizing: border-box;
 }
-.formbox{
+
+.formboxl{
 	width: 100%;
-	padding: 20px 40px;
+	padding: 40px 40px;
 	box-sizing: border-box;
 	height: 500px;
 	background: #fff;
 }
-.formbox p{
+
+.formboxr{
+	width: 100%;
+	padding: 40px 40px;
+	box-sizing: border-box;
+	height: 500px;
+	background: #fff;
+}
+.formboxl p{
 	margin:0;
 	padding: 0;
 	font-weight: bold;
 	color:#eea810;
 }
-.formbox input{
+.formboxl input{
 	width: 100%;
 	margin-bottom: 20px;
 }
-.formbox input[type="text"],
-.formbox input[type="password"]{
+.formboxl input[type="text"]{
 	border:none;
 	border-bottom: 2px solid #ffbe33;
 	outline: none;
 	height: 40px
 }
-.formbox input[type="text"]:focus,
-.formbox input[type="password"]:focus{
-	border-bottom: 2px solid #262626
+.formboxl input[type="text"]{
+	border-bottom: 2px solid #ffbe33
 }
-.formbox input[type="submit"]{
+.formboxl input[type="submit"]{
 	border:none;
 	outline: none;
 	height: 40px;
@@ -94,11 +101,49 @@ body{
 	cursor: pointer;
 	transition: .5s;
 }
-.formbox input[type="submit"]:hover{
+.formboxl input[type="submit"]:hover{
 	background:#e6b820;
 }
-.formbox a{
+.formboxl a{
 	color: #262626;
 	font-size: 12px;
 	font-weight: bold;
+}
+
+.formboxr p{
+	margin:0;
+	padding: 0;
+	font-weight: bold;
+	color:#eea810;
+}
+.formboxr input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.formboxr input[type="text"]{
+	border:none;
+	border-bottom: 2px solid #ffbe33;
+	outline: none;
+	height: 40px
+}
+.formboxr input[type="text"]{
+	border-bottom: 2px solid #ffbe33
+}
+.formboxr input[type="submit"]{
+	border:none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	background:#262626;
+	cursor: pointer;
+	transition: .5s;
+}
+.formboxr input[type="submit"]:hover{
+	background:#e6b820;
+}
+.formboxr a{
+	color: #0019f7;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
 }
